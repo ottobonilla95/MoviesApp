@@ -11,7 +11,7 @@ require("dotenv").config();
 import "express-async-errors";
 
 // constants
-const port = 3001;
+const port = process.env.PORT || 3000;
 const url = process.env.MONGO_URI!;
 
 const start = async () => {
