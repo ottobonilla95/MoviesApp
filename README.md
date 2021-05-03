@@ -96,7 +96,7 @@ See the live demo here:
 
 
 <dl>
-<a href="http://128.199.43.48/bit/dashboard/homewalawebapp/user/login" target="_blank">Demo</a>
+<a href="http://128.199.43.48/moviesapp/user/login" target="_blank">Demo</a>
 </dl>
 
 
