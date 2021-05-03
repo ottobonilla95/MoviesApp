@@ -4,9 +4,13 @@ const path = require("path");
 const htmlWebpackPlugin = require("html-webpack-plugin");
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 //   .BundleAnalyzerPlugin;
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-// const publicPath = "/crowdlinkerwebpp/";
-const publicPath = "/";
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+// prod
+const publicPath = "/moviesapp/";
+// dev
+// const publicPath = "/";
+
 const port = process.env.PORT || 3002;
 
 module.exports = {
@@ -36,7 +40,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
     ],
   },
