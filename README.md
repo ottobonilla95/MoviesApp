@@ -89,7 +89,7 @@ Tests
 npm run test
 ```
 
-**Important:** In order to get this app working you must provide a .env file with all variables listed in the .env.example document. The path of the .env document must be in the same place as .env.example
+**Important:** In order to get the backend working you must provide a .env file with all variables listed in the .env.example document. The path of the .env document must be in the same place as .env.example
 
 ## Live demo
 See the live demo here:
