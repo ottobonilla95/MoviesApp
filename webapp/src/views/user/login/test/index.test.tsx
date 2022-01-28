@@ -1,6 +1,6 @@
 import React from "react";
 
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent } from "@testing-library/react";
 
 // // component
 import LoginView from "../index";
@@ -11,6 +11,8 @@ const mockStore = configureStore([]);
 
 describe("My Connected React-Redux Component", () => {
   let store;
+
+  
 
   beforeEach(() => {
     store = mockStore({

@@ -7,9 +7,9 @@ const htmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 // prod
-const publicPath = "/moviesapp/";
+// const publicPath = "/moviesapp/";
 // dev
-// const publicPath = "/";
+const publicPath = "/";
 
 const port = process.env.PORT || 3002;
 
